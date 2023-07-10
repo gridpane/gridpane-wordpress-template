@@ -4,7 +4,7 @@ echo "This is an example post-deploy script. Running as root user"
 
 echo "Post deploy change 1"
 
-echo "Create testfolder
+echo "Create testfolder"
 
 mkdir ../testfolder
 
