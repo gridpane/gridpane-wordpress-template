@@ -8,7 +8,7 @@ mkdir ../testfoldersys
 
 echo "Create testfolder2sys"
 
-mkdir -p ../../public/testfolder2sys
+sudo mkdir -p ../../public/testfolder2sys
 
 echo "Post deploy make dir in current folder"
 
