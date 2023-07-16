@@ -8,7 +8,7 @@ mkdir ../testfoldersys
 
 echo "Create testfolder2sys "
 
-sudo mkdir -p ../../public/testfolder2sys
+#sudo mkdir -p ../../public/testfolder2sys
 
 echo " GP_GIT_SITE_PATH - ${GP_GIT_SITE_PATH}"
 
