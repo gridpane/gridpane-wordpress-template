@@ -2,16 +2,16 @@
 
 echo "This is an example post-deploy script. Run as site system user"
 
-echo "Create testfolder"
+# echo "Create testfolder"
 
-mkdir ../testfoldersys
+# mkdir ../testfoldersys
 
-echo "Create testfolder2sys "
+# echo "Create testfolder2sys "
 
-#sudo mkdir -p ../../public/testfolder2sys
+# #sudo mkdir -p ../../public/testfolder2sys
 
-echo " GP_GIT_SITE_PATH - ${GP_GIT_SITE_PATH}"
+# echo " GP_GIT_SITE_PATH - ${GP_GIT_SITE_PATH}"
 
-echo "Post deploy make dir in current folder"
+# echo "Post deploy make dir in current folder"
 
 
