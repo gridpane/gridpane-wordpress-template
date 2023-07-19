@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "This is an example pre-deploy script. Run as site system user"
+
 # Site level access
 # - Runs before files have been deployed 
 # - Runs as site's system user
