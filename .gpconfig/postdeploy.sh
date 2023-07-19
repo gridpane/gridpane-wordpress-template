@@ -2,16 +2,26 @@
 
 echo "This is an example post-deploy script. Run as site system user"
 
-# echo "Create testfolder"
+# Site level access
+# - Runs after files have been deployed 
+# - Runs as site's system user
+# - Runs from within site /.gpconfig dir
 
-# mkdir ../testfoldersys
+echo "In: $GP_GIT_RELEASE_PATH"
+ls -l $GP_GIT_RELEASE_PATH
 
-# echo "Create testfolder2sys "
+echo "--------------------------"
 
-# #sudo mkdir -p ../../public/testfolder2sys
+echo "In: $GP_GIT_SITE_WEBROOT_PATH"
+ls -l $GP_GIT_SITE_WEBROOT_PATH
 
-# echo " GP_GIT_SITE_PATH - ${GP_GIT_SITE_PATH}"
+echo "--------------------------"
 
-# echo "Post deploy make dir in current folder"
+echo "mkdir ${GP_GIT_SITE_PATH}/public/postdeploy"
+echo "touch ${GP_GIT_SITE_PATH}/public/postdeploy/file"
+
+mkdir -p ${GP_GIT_SITE_PATH}/public/postdeploy
+touch ${GP_GIT_SITE_PATH}/public/postdeploy/file
+ls -l ${GP_GIT_SITE_PATH}/public/postdeploy
 
 
